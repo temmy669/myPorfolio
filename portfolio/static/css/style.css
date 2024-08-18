@@ -770,12 +770,16 @@ p {
       /*  margin-bottom: 10px;  Add spacing between image and text */
         display: flex;
         justify-content: center; /* Center the image horizontally */
+		
     }
 
     .hero-image img {
-        max-width: 50%; /* Optionally, control the image size */
-        /* margin: 0 auto; */
+        max-width: 70%; /* Optionally, control the image size */
+        margin: 0 auto; 
 		border-radius: 100%; /* Ensure the image is centered */
+		width: 100%;
+		height: auto; /* This maintains the aspect ratio */
+		object-fit: cover; 
     }
 
     .hero-text {
