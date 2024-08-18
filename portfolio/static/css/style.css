@@ -779,7 +779,7 @@ p {
     }
 
     .hero-text {
-        padding: 0 20px; /* Add padding for better readability on mobile */
+        /*padding: 0 20px;  Add padding for better readability on mobile */
 		text-align: center;
     }
 }
