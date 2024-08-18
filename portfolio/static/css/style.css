@@ -767,14 +767,13 @@ p {
     }
 
     .hero-image {
-        margin-bottom: 10px; /* Add spacing between image and text */
+      /*  margin-bottom: 10px;  Add spacing between image and text */
         display: flex;
         justify-content: center; /* Center the image horizontally */
-        width: 100%;
     }
 
     .hero-image img {
-        max-width: 100%; /* Optionally, control the image size */
+        max-width: 70%; /* Optionally, control the image size */
         margin: 0 auto; /* Ensure the image is centered */
     }
 
