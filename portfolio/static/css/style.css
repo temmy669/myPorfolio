@@ -760,25 +760,3 @@ p {
 }
 /* End  Media Query For Desktop */
 
-@media (max-width: 768px) {
-    .hero.container {
-        flex-direction: column; /* Stack items vertically */
-        text-align: center; /* Center the text */
-    }
-
-    .hero-image {
-      /*  margin-bottom: 10px;  Add spacing between image and text */
-        display: flex;
-        justify-content: center; /* Center the image horizontally */
-    }
-
-    .hero-image img {
-        max-width: 70%; /* Optionally, control the image size */
-        margin: 0 auto; /* Ensure the image is centered */
-    }
-
-    .hero-text {
-        padding: 0 20px; /* Add padding for better readability on mobile */
-		text-align: center;
-    }
-}
