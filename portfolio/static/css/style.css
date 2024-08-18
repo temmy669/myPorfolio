@@ -774,7 +774,7 @@ p {
 
     .hero-image img {
         max-width: 50%; /* Optionally, control the image size */
-        margin: 0 auto;
+        /* margin: 0 auto; */
 		border-radius: 100%; /* Ensure the image is centered */
     }
 
