@@ -768,7 +768,8 @@ p {
 
     .hero-image {
         margin-bottom: 10px; /* Add spacing between image and text */
-        display:block;
+        display:flex;
+		flex: 1;
         justify-content: center; /* Center the image horizontally */
         width: 100%;
 		border-radius: 100%;
