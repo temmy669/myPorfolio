@@ -760,7 +760,7 @@ p {
 }
 /* End  Media Query For Desktop */
 
-@media only screen and (min-width: 347px) {
+@media only screen and (max-width: 768px) {
     .hero.container {
         flex-direction: column; /* Stack items vertically */
         text-align: center; /* Center the text */
@@ -774,7 +774,8 @@ p {
 
     .hero-image img {
         max-width: 70%; /* Optionally, control the image size */
-        margin: 0 auto; /* Ensure the image is centered */
+        margin: 0 auto;
+		border-radius: 100%; /* Ensure the image is centered */
     }
 
     .hero-text {
