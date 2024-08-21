@@ -283,7 +283,8 @@ p {
 .hero-image img {
     max-width: 70%;
     height: auto; /* Ensure the image is responsive */
-    border-radius: 100%; /* Optional: Add some rounding to the image corners */
+    border-radius: 100%;
+	object-fit: cover; /* Optional: Add some rounding to the image corners */
 }
 
 
@@ -765,12 +766,15 @@ p {
 	.hero-text, .hero-image {
 	  flex: none; /* Reset flex properties */
 	  width: 100%; /* Make elements full-width */
-	}
-	.hero-image {
-	  text-align: center; /* Center the image on mobile */
+	  text-align: center; /* Center both text and image on mobile */
 	}
 	.hero-image img {
 	  max-width: 100%; /* Make the image full-width on mobile */
+	  border-radius: 50%; /* Maintain oval shape on mobile */
+	  margin: 20px auto; /* Add margin to create space around the image */
+	}
+	.hero-text {
+	  margin-bottom: 20px; /* Add margin to create space between text and image */
 	}
   }
 
