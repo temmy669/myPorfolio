@@ -760,3 +760,17 @@ p {
 }
 /* End  Media Query For Desktop */
 
+/*Media Query for Mobile Devices*/
+@media only screen and (max-width: 768px) {
+	.hero-text, .hero-image {
+	  flex: none; /* Reset flex properties */
+	  width: 100%; /* Make elements full-width */
+	}
+	.hero-image {
+	  text-align: center; /* Center the image on mobile */
+	}
+	.hero-image img {
+	  max-width: 100%; /* Make the image full-width on mobile */
+	}
+  }
+
