@@ -770,7 +770,7 @@ p {
 	}
 	.hero-image img {
 	  max-width: 100%; /* Make the image full-width on mobile */
-	  border-radius: 50%; /* Maintain oval shape on mobile */
+	  border-radius: 100%; /* Maintain oval shape on mobile */
 	  margin: 20px auto; /* Add margin to create space around the image */
 	}
 	.hero-text {
