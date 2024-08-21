@@ -762,7 +762,7 @@ p {
 /* End  Media Query For Desktop */
 
 /*Media Query for Mobile Devices*/
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 346px) {
 	.hero-text, .hero-image {
 	  flex: none; /* Reset flex properties */
 	  width: 100%; /* Make elements full-width */
