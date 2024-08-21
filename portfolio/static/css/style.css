@@ -727,7 +727,7 @@ p {
 	}
 	/* End contact  */
 }
-/* End Media Query For Tablet */
+
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
@@ -768,7 +768,7 @@ p {
 
     .hero-image {
       /*  margin-bottom: 10px;  Add spacing between image and text */
-        display: flex;
+        /* display: flex; */
         justify-content: center; /* Center the image horizontally */
 		
     }
