@@ -762,3 +762,11 @@ p {
 /* End  Media Query For Desktop */
 
 /*Media Query for Mobile Devices*/
+@media (max-width: 768px) {
+    .hero-image {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
