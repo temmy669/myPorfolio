@@ -762,19 +762,3 @@ p {
 /* End  Media Query For Desktop */
 
 /*Media Query for Mobile Devices*/
-@media only screen and (min-width: 346px) {
-	.hero-text, .hero-image {
-	  flex: none; /* Reset flex properties */
-	  width: 100%; /* Make elements full-width */
-	  text-align: center; /* Center both text and image on mobile */
-	}
-	.hero-image img {
-	  max-width: 100%; /* Make the image full-width on mobile */
-	  border-radius: 100%; /* Maintain oval shape on mobile */
-	  margin: 20px auto; /* Add margin to create space around the image */
-	}
-	.hero-text {
-	  margin-bottom: 20px; /* Add margin to create space between text and image */
-	}
-  }
-
