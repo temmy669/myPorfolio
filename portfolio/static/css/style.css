@@ -634,7 +634,7 @@ p {
 /* End Keyframes */
 
 /* Media Query */
-@media only screen and (min-width: 346px) {
+/* @media only screen and (min-width: 346px) {
 	html {
 		font-size: 8px;
 	}
@@ -683,4 +683,32 @@ p {
 	#contact .contact-item {
 		flex-basis: 100%;
 	}
+} */
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    #hero h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #hero p {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #hero .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    #hero .hero img {
+        width: 100%;
+        max-width: 300px; /* Adjust this value based on your preference */
+        height: auto;
+    }
 }
